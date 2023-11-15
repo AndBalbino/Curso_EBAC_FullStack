@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <h1 class="titulo">Cadastro pessoal</h1>
+
+    <script type="text/javascript">
+      const cadastrarUsua = () => {
+        alert("Usuário cadastrado");
+      };
+    </script>
+
+    <div id="area">
+      <form id="formulario" autocomplete="off">
+        <fieldset>
+          <legend>Preencha o formulário</legend>
+          <br/>
+          <label for="name">Nome: </label>
+          <input id="name" type="name" />
+          <br />
+          <br />
+          <label for="text">Endereço: </label>
+          <input id="text" type="text" />
+          <br />
+          <br />
+          <label for="city">Cidade: </label>
+          <input id="city" type="city" />
+          <br />
+          <br />
+          <label>Estado: </label>
+          <select>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+            <option>DF</option>
+          </select>
+          <br />
+          <br />
+          <label for="email">E-mail: </label>
+          <input id="email" type="email" />
+          <br />
+          <br />
+          <label for="password">Senha: </label>
+          <input id="password" type="password" />
+          <br />
+          <br />
+          <label for="menssagem"> Menssagem (Opcional): </label>
+          <br/>
+          <textarea class="msg" cols="35" rows="8"></textarea>
+          <br/>
+          <br/>
+          <input
+            id="button"
+            type="submit"
+            value="Cadastrar"
+            onclick="cadastrarUsua()"
+          />
+          <button type="reset">Limpar</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
