@@ -1,0 +1,22 @@
+#nome, #email{
+    max-width: 600px;
+}
+
+#tel{
+    max-width: 300px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 8px 30px;
+   
+}
+
+.container{
+    max-width: 50%;
+    margin-top:10px;
+    border: 1px solid #0b469e;
+    padding: 16px;
+
+}
+
