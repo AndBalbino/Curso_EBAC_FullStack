@@ -17,6 +17,7 @@
 //Requisição ajax com jquery
 
 $(document).ready(function () {
+    $('#cep').mask('00000-000');
   $("#btn-buscar-cep").click(function () {
     const cep = $("#cep").val();
     const endpoint = `https://viacep.com.br/ws/${cep}/json`;
