@@ -7,7 +7,7 @@ const multiplicaNumeros = (number1: number, number2: number): number => number1 
 
 console.log(multiplicaNumeros(10,10));
 
-const saudacao = (nome: string) => console.log(`Olá ${nome}`);
+const saudacao = (nome: string): void => console.log(`Olá ${nome}`);
 
 saudacao('Anderson');
 
